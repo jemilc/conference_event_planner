@@ -39,7 +39,7 @@ export const avSlice = createSlice({
 
 
   reducers: {
-    iincrementAvQuantity: (state, action) => {
+    incrementAvQuantity: (state, action) => {
     const item = state[action.payload];
     if (item) {
         item.quantity++;
